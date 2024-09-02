@@ -1,0 +1,973 @@
+/* The standard Aerial Visuals text font is Arial */
+.fontArial {
+  font-family: Arial, Helvetica, sans-serif; }
+
+@font-face ("roboto", "https://www.aerialvisuals.org/fonts/roboto.ttf", normal, ttf);
+.fontRoboto {
+  font-family: roboto; }
+
+@font-face ("roboto-bold", "https://www.aerialvisuals.org/fonts/roboto.ttf", bold, ttf);
+.fontRobotoMedium {
+  font-family: roboto-bold; }
+
+@font-face ("klavika-bold", "https://www.aerialvisuals.org/fonts/klavika-bold.otf", normal, otf);
+.fontKlavikaBold {
+  font-family: klavika-bold; }
+
+/* Source for Facebook and Google fonts:  https://boostlikes.com/blog/2016/01/facebook-font-logo#:~:text=As%20for%20the%20font%20they,smartphones%20and%20such%20use%20Roboto.*/
+.fontFacebook {
+  font-family: klavika-bold, Tahoma, "Lucida Grande", Helvetica Neue, Roboto; }
+
+.fontGoogle {
+  font-family: roboto; }
+
+.lineHeight1 {
+  line-height: 1px; }
+
+.lineHeight2 {
+  line-height: 2px; }
+
+.lineHeight3 {
+  line-height: 3px; }
+
+.lineHeight4 {
+  line-height: 4px; }
+
+.lineHeight5 {
+  line-height: 5px; }
+
+.lineHeight6 {
+  line-height: 6px; }
+
+.lineHeight7 {
+  line-height: 7px; }
+
+.lineHeight8 {
+  line-height: 8px; }
+
+.lineHeight9 {
+  line-height: 9px; }
+
+.lineHeight10 {
+  line-height: 10px; }
+
+.lineHeight11 {
+  line-height: 11px; }
+
+.lineHeight12 {
+  line-height: 12px; }
+
+.lineHeight13 {
+  line-height: 13px; }
+
+.lineHeight14 {
+  line-height: 14px; }
+
+.lineHeight15 {
+  line-height: 15px; }
+
+.lineHeight16 {
+  line-height: 16px; }
+
+.lineHeight17 {
+  line-height: 17px; }
+
+.lineHeight18 {
+  line-height: 18px; }
+
+.lineHeight19 {
+  line-height: 19px; }
+
+.lineHeight20 {
+  line-height: 20px; }
+
+.lineHeight21 {
+  line-height: 21px; }
+
+.lineHeight22 {
+  line-height: 22px; }
+
+.lineHeight23 {
+  line-height: 23px; }
+
+.lineHeight24 {
+  line-height: 24px; }
+
+.lineHeight25 {
+  line-height: 25px; }
+
+.lineHeight26 {
+  line-height: 26px; }
+
+.lineHeight27 {
+  line-height: 27px; }
+
+.lineHeight28 {
+  line-height: 28px; }
+
+.lineHeight29 {
+  line-height: 29px; }
+
+.lineHeight30 {
+  line-height: 30px; }
+
+/* size=2 */
+/* size=3 */
+/* size=4 */
+.font1 {
+  font-size: 1px; }
+
+.font2 {
+  font-size: 2px; }
+
+.font3 {
+  font-size: 3px; }
+
+.font4 {
+  font-size: 4px; }
+
+.font5 {
+  font-size: 5px; }
+
+.font6 {
+  font-size: 6px; }
+
+.font7 {
+  font-size: 7px; }
+
+.font8 {
+  font-size: 8px; }
+
+.font9 {
+  font-size: 9px; }
+
+.font10 {
+  font-size: 10px; }
+
+.font11 {
+  font-size: 11px; }
+
+.font12 {
+  font-size: 12px; }
+
+.font13 {
+  font-size: 13px; }
+
+.font14 {
+  font-size: 14px; }
+
+.font15 {
+  font-size: 15px; }
+
+.font16 {
+  font-size: 16px; }
+
+.font17 {
+  font-size: 17px; }
+
+.font18 {
+  font-size: 18px; }
+
+.font19 {
+  font-size: 19px; }
+
+.font20 {
+  font-size: 20px; }
+
+.font21 {
+  font-size: 21px; }
+
+.font22 {
+  font-size: 22px; }
+
+.font23 {
+  font-size: 23px; }
+
+.font24 {
+  font-size: 24px; }
+
+.font25 {
+  font-size: 25px; }
+
+.font26 {
+  font-size: 26px; }
+
+.font27 {
+  font-size: 27px; }
+
+.font28 {
+  font-size: 28px; }
+
+.font29 {
+  font-size: 29px; }
+
+.font30 {
+  font-size: 30px; }
+
+.fontLight {
+  font-weight: 100; }
+
+.fontNorm {
+  font-weight: 400; }
+
+.fontBold {
+  font-weight: 800; }
+
+.fontBlack {
+  color: #000000; }
+
+.fontBlue {
+  color: #0000FF; }
+
+.fontBlueFacebook {
+  color: #4267B2; }
+
+.fontGrayLight {
+  color: #EEEEEE; }
+
+.fontGray {
+  color: #ACAFB0; }
+
+.fontGrayFacebook {
+  color: #898F9C; }
+
+.fontGrayDark {
+  color: #616363; }
+
+.fontCharcoal {
+  color: #3C3D3D; }
+
+.fontGreenLight {
+  color: #CCFF99; }
+
+.fontGreen {
+  color: #73A364; }
+
+.fontGreenDark {
+  color: #295E19; }
+
+.fontMaroon {
+  color: #800000; }
+
+.fontMaroonGray {
+  color: #996666; }
+
+.fontOrange {
+  color: #FFA500; }
+
+.fontRed {
+  color: #FF0000; }
+
+.fontRedGoogle {
+  color: #DE5246; }
+
+.fontSalmon {
+  color: #FA8072; }
+
+.fontYellow {
+  color: #FFFF99; }
+
+.fontWhite {
+  color: #FFFFFF; }
+
+.fontLavender {
+  color: #FFFFFF; }
+
+.textRenderAuto {
+  text-rendering: auto; }
+
+.textRenderSpeed {
+  text-rendering: optimizeSpeed; }
+
+.textRenderLegibility {
+  text-rendering: optimizeLegibility; }
+
+.textRenderPrecision {
+  text-rendering: geometricPrecision; }
+
+.bgBlack {
+  background-color: #000000; }
+
+.bgBlue {
+  background-color: #0000FF; }
+
+.bgBlueFacebook {
+  background-color: #4267B2; }
+
+.bgGrayLight {
+  background-color: #EEEEEE; }
+
+.bgGray {
+  background-color: #ACAFB0; }
+
+.bgGrayFacebook {
+  background-color: #898F9C; }
+
+.bgGrayDark {
+  background-color: #616363; }
+
+.bgCharcoal {
+  background-color: #3C3D3D; }
+
+.bgGreenLight {
+  background-color: #CCFF99; }
+
+.bgGreen {
+  background-color: #73A364; }
+
+.bgGreenDark {
+  background-color: #295E19; }
+
+.bgMaroon {
+  background-color: #800000; }
+
+.bgMaroonGray {
+  background-color: #996666; }
+
+.bgOrange {
+  background-color: #FFA500; }
+
+.bgRed {
+  background-color: #FF0000; }
+
+.bgRedGoogle {
+  background-color: #DE5246; }
+
+.bgSalmon {
+  background-color: #FA8072; }
+
+.bgYellow {
+  background-color: #FFFF99; }
+
+.bgWhite {
+  background-color: #FFFFFF; }
+
+.bgLavender {
+  background-color: #FFFFFF; }
+
+.bg_normal_light {
+  background-color: #FFFFFF; }
+
+.bg_normal_shaded {
+  background-color: #ECEC99; }
+
+.bg_new_light {
+  background-color: #99FF66; }
+
+.bg_new_shaded {
+  background-color: #99CC00; }
+
+/*.appearanceNone { appearance:none; -moz-appearance:none; -webkit-appearance:none; }*/
+.hAlignLeft {
+  text-align: left; }
+
+.hAlignCentre {
+  text-align: center; }
+
+.hAlignRight {
+  text-align: right; }
+
+.vAlignTop {
+  vertical-align: top; }
+
+.vAlignMiddle {
+  vertical-align: middle; }
+
+.vAlignBottom {
+  vertical-align: bottom; }
+
+.vAlignTextTop {
+  vertical-align: text-top; }
+
+.vAlignTextBottom {
+  vertical-align: text-bottom; }
+
+.padding1 {
+  padding: 1px; }
+
+.width0 {
+  width: 0; }
+
+.width1 {
+  width: 1px; }
+
+.width2 {
+  width: 2px; }
+
+.width3 {
+  width: 3px; }
+
+.width4 {
+  width: 4px; }
+
+.width5 {
+  width: 5px; }
+
+.width6 {
+  width: 6px; }
+
+.width7 {
+  width: 7px; }
+
+.width8 {
+  width: 8px; }
+
+.width9 {
+  width: 9px; }
+
+.width10 {
+  width: 10px; }
+
+.width20 {
+  width: 20px; }
+
+.width30 {
+  width: 30px; }
+
+.width40 {
+  width: 40px; }
+
+.width50 {
+  width: 50px; }
+
+.width60 {
+  width: 60px; }
+
+.width70 {
+  width: 70px; }
+
+.width80 {
+  width: 80px; }
+
+.width90 {
+  width: 90px; }
+
+.width100 {
+  width: 100px; }
+
+.width200 {
+  width: 200px; }
+
+.width300 {
+  width: 300px; }
+
+.width400 {
+  width: 400px; }
+
+.width500 {
+  width: 500px; }
+
+.width600 {
+  width: 600px; }
+
+.width700 {
+  width: 700px; }
+
+.width800 {
+  width: 800px; }
+
+.width900 {
+  width: 900px; }
+
+.width1000 {
+  width: 1000px; }
+
+.displayNone {
+  display: none; }
+
+.displayBlock {
+  display: block; }
+
+.displayInline {
+  display: inline; }
+
+.displayInlineBlock {
+  display: inline-block; }
+
+.displayRow {
+  display: table-row; }
+
+.displayCell {
+  display: table-cell; }
+
+.opacity100 {
+  opacity: 100%; }
+
+.opacity90 {
+  opacity: 90%; }
+
+.opacity80 {
+  opacity: 80%; }
+
+.opacity70 {
+  opacity: 70%; }
+
+.opacity60 {
+  opacity: 60%; }
+
+.opacity50 {
+  opacity: 50%; }
+
+.opacity40 {
+  opacity: 40%; }
+
+.opacity30 {
+  opacity: 30%; }
+
+.opacity20 {
+  opacity: 20%; }
+
+.opacity10 {
+  opacity: 10%; }
+
+.opacity0 {
+  opacity: 0%; }
+
+/* deprecated */
+.visShow {
+  visibility: visible;
+  display: inline-block; }
+
+/* deprecated */
+.visHide {
+  visibility: hidden;
+  display: none; }
+
+/*
+@keyframes hidden-animation {
+	to {
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+}
+*/
+.hidden {
+  visibility: hidden;
+  display: none;
+  /*
+  	animation-name: hidden-animation;
+  	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  */ }
+
+.input-text-label-style {
+  line-height: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #616363;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3px; }
+
+.input-text-style {
+  height: 24px;
+  width: 100%;
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 1px #616363;
+  border-radius: 5px;
+  padding: 2px 8px 2px 8px; }
+
+/* Links - Standard */
+a {
+  color: black;
+  text-decoration: underline; }
+
+a img {
+  border-color: black;
+  border-width: 2px; }
+
+a:link {
+  color: black;
+  text-decoration: underline; }
+
+a:link img {
+  border-color: black;
+  border-width: 2px; }
+
+a:visited {
+  color: black;
+  text-decoration: underline; }
+
+a:visited img {
+  border-color: black;
+  border-width: 2px; }
+
+a:hover {
+  color: maroon;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold; }
+
+a:hover img {
+  border-color: maroon;
+  border-width: 2px; }
+
+a:active {
+  color: maroon;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold; }
+
+a:active img {
+  border-color: maroon;
+  border-width: 2px; }
+
+/* Links - Link Images With No Border */
+a.imgNoBorder img {
+  border-width: 0px; }
+
+a.imgNoBorder:link img {
+  border-width: 0px; }
+
+a.imgNoBorder:visited img {
+  border-width: 0px; }
+
+a.imgNoBorder:hover img {
+  border-width: 1px;
+  border-color: #800000; }
+
+/* Paragraphs - Form Category Headings */
+p.formCatHead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: normal;
+  color: maroon;
+  margin: 0; }
+
+p.formContentPlaceholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  margin: 0; }
+
+/* Paragraphs - Tables*/
+p.searchEngineTableColumnHead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  margin: 0; }
+
+p.searchEngineTableRowHead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: normal;
+  color: maroon;
+  margin: 0; }
+
+p.searchEngineTableContents {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  margin: 0; }
+
+/* Paragraphs - Tables*/
+p.tableHeadings {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  margin: 0; }
+
+p.tableRowHeading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: normal;
+  color: maroon;
+  margin: 0; }
+
+p.tableContents {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  margin: 0; }
+
+/* Tables - Borders */
+table.noBorder {
+  padding: 0px;
+  margin: 0px;
+  border: 0px; }
+
+table.minBorder {
+  padding: 5px;
+  margin: 0px;
+  border: 0px; }
+
+td.alignTopLeft {
+  vertical-align: top;
+  text-align: left; }
+
+td.alignTopRight {
+  vertical-align: top;
+  text-align: right; }
+
+/* Paragraphs - Lists*/
+p.listHeading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: italic;
+  color: maroon;
+  margin: 0; }
+
+p.listContent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-style: normal;
+  color: black;
+  margin: 0; }
+
+span.listHeading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: italic;
+  color: maroon;
+  margin: 0; }
+
+span.listContent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-style: normal;
+  color: black;
+  margin: 0; }
+
+/* Administration Syles - Lists*/
+span.adminTiny {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6pt;
+  font-weight: normal;
+  /* normal, bold, bolder, lighter */
+  font-style: normal;
+  /* normal, italic, oblique */
+  color: black;
+  margin: 0; }
+
+span.adminSmall {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8pt;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  margin: 0; }
+
+span.adminNorm {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  margin: 0; }
+
+span.adminBold {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  margin: 0; }
+
+span.adminGreen {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: green;
+  margin: 0; }
+
+span.adminCaution {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: normal;
+  color: orange;
+  margin: 0; }
+
+span.adminAlert {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  font-weight: bolder;
+  font-style: normal;
+  color: red;
+  margin: 0; }
+
+textarea.scrollShowVertical {
+  overflow-y: scroll; }
+
+textarea.scrollHideVertical {
+  overflow-y: hidden; }
+
+textarea.scrollShowHorizontal {
+  overflow-x: scroll; }
+
+textarea.scrollHideHorizontal {
+  overflow-x: hidden; }
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.truncate1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1px;
+  line-height: 3px;
+  height: 3px; }
+
+.truncate2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 2px;
+  line-height: 4px;
+  height: 4px; }
+
+.truncate3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 3px;
+  line-height: 5px;
+  height: 5px; }
+
+.truncate4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 4px;
+  line-height: 6px;
+  height: 6px; }
+
+.truncate5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 5px;
+  line-height: 7px;
+  height: 7px; }
+
+.truncate6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 6px;
+  line-height: 8px;
+  height: 8px; }
+
+.truncate7 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 7px;
+  line-height: 9px;
+  height: 9px; }
+
+.truncate8 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 8px;
+  line-height: 10px;
+  height: 10px; }
+
+.truncate9 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 9px;
+  line-height: 11px;
+  height: 11px; }
+
+.truncate10 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 10px;
+  line-height: 12px;
+  height: 12px; }
+
+.truncate12 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px; }
+
+.truncate14 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  line-height: 16px;
+  height: 16px; }
+
+.truncate16 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 18px;
+  height: 18px; }
+
+.truncate18 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  line-height: 20px;
+  height: 20px; }
+
+.truncate20 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  line-height: 22px;
+  height: 22px; }
+
+body {
+  height: 100vh;
+  width: 100%; }
+
+#root {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.tsborderpink {
+  border: pink 1px solid; }
+
+.tsborderyellow {
+  border: yellow 1px solid; }
+
+.tsborderred {
+  border: red 1px solid; }
+
+.tsborderorange {
+  border: orange 1px solid; }
+
+.tsborderpurple {
+  border: purple 1px solid; }
+
+.tsbordergreen {
+  border: green 1px solid; }
+
+/*# sourceMappingURL=basic.css.map */

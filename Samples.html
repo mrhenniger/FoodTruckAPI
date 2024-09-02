@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://54.215.136.169">
+    <link rel="stylesheet" href="basic.css">
+    <script>
+        async function hitAPI() {
+            let lat = document.getElementById("lat").value;
+            let lon = document.getElementById("lon").value;
+            let want = document.getElementById("want").value;
+            let url = `http://54.215.136.169/apiFoodTruck.php?want=${want}&lat=${lat}&lon=${lon}`;
+
+            document.getElementById("resultsDisplay").innerHTML = "";
+
+            // Note:  If you are reading this then you are likely wondering why I am using XMLHttpRequest below and not
+            //        fetch with the modern promises.  The problem is fetch was not recognizing the JSON being returned
+            //        from the end point.  I don't know why, and I was spending way too much time troubleshooting
+            //        something that had a reasonable work-around (XMLHttpRequest), so I went with that for something
+            //        that is a test tool.
+
+            let waitFlag = true;
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = () => {
+                if (xhr.readyState === 4) {
+                    waitFlag = false;
+                    let jsonStr = xhr.responseText;
+                    let jsonObj = JSON.parse(jsonStr);
+
+                    if (jsonObj.status === 'failure') {
+                        // Display the error message
+                        document.getElementById('resultsDisplay').innerHTML = jsonObj.error;
+                    } else {
+                        // Display the good results
+                        let resultsStr = '';
+                        let matchCount = 0;
+                        jsonObj.matches.forEach((match) => {
+                            matchCount++;
+                            resultsStr += `Match #${matchCount}:  ${match['NAME']}/${match['LOCATION_DESCRIPTION']}, `;
+                        });
+                        let otherCount = 0;
+                        jsonObj.others.forEach((other) => {
+                            otherCount++;
+                            resultsStr += `Other #${otherCount}:  ${other['NAME']}/${other['LOCATION_DESCRIPTION']}, `;
+                        });
+                        resultsStr += "That's all folks!!!";
+
+                        document.getElementById('resultsDisplay').innerHTML = resultsStr;
+                    }
+                }
+            };
+            xhr.send();
+
+            // Keep the thread alive long enough
+            // Note:  This is another issue I didn't have time to troubleshoot, but what I am doing here is keeping the
+            //        main javascript "thread" alive long enough for the end point to return and have the results
+            //        displayed.  I am not entirely certain why this is necessary, but I think my previous apps always
+            //        had a "heart beat" function that would at least wake up and do things periodically, hence I have
+            //        never seen this issue before.  What is the issue?  The script ends before the endpoint returns
+            //        results and therefore the results are not getting processed and displayed.  I am not happy with
+            //        this, and it is DEFINITELY NOT something I would put in production.
+            let count = 0;
+            let countUp = () => {
+                count++;
+                if (count <= 10 && waitFlag) {
+                    if (typeof timeout !== 'undefined') {
+                        timeout(countUp, 1000);
+                    }
+                }
+            }
+            countUp();
+        }
+    </script>
+</head>
+<body class="fontArial font25">
+
+<div class="fontBold">Food Truck Examples</div></br>
+<a href="http://54.215.136.169/apiFoodTruck.php?want=taco&lat=37.789302515723385&lon=-122.40120079571057" target="_blank">Tacos at Market and 2nd</a></br>
+<a href="http://54.215.136.169/apiFoodTruck.php?want=burrito&lat=37.75977324123368&lon=-122.42701557386074" target="_blank">Burritos near Dolores Park</a></br>
+<a href="http://54.215.136.169/apiFoodTruck.php?want=burrito&lat=37.80538680112902&lon=-122.43216846385495" target="_blank">Poke near Fort Mason</a></br>
+</br>
+<div class="fontBold">Simple UI</div>
+Want:  <input id="want" type="text" size="20" value="taco"> Example:  taco</br>
+Lat:  <input id="lat" type="text" size="20" value="37.789302515723385"> Example: 37.789302515723385</br>
+Lon:  <input id="lon" type="text" size="20" value="-122.40120079571057"> Example: -122.40120079571057</br>
+<input type="button" value="Find" onClick="hitAPI();"></br>
+
+Results...</br>
+<div id="resultsDisplay" class="font18"></div>
+
+</body>
